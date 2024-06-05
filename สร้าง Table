@@ -1,0 +1,6 @@
+CREATE TABLE doungkamon.`books` 
+(id INT NOT NULL AUTO_INCREMENT , name VARCHAR(150) NOT NULL , author VARCHAR(150) NOT NULL , publish_date DATE NOT NULL , total_page INT NOT NULL , price DECIMAL(10, 2) 
+NOT NULL , PRIMARY KEY (id)) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
+คำสั่งนี้ใช้สร้างตรางใน mysql ต้องใช้ไม่ใช่เหรอ หรือจะไปสร้างเอาใหม่ก็ได้
